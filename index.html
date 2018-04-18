@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>BTCP | Web Payments</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <!-- Lity CSS -->
+    <link href="assets/css/lity.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS and Main Color -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+	
+	 <!-- Start Nav -->
+        <nav class="navbar navbar-default site-menu" data-spy="site-menu">
+		
+		<img class="toplogo" src="assets/img/logo.png" class="img-responsive" alt="">
+		
+            <div class="container">
+               
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- End Nav -->
+		
+		
+</head>
+
+<body>
+    <!-- Start Preloader -->
+
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+    </div>
+
+    <!-- End Preloader -->
+		
+    <!-- Start Header -->
+    <header>
+        
+        <!-- Start Home Banner -->
+        <section id="home_banner" class="home-slide index-style-2" style="background-image: url('./assets/img/home1.jpg'); background-size: cover; background-position: 50% 50%;background-attachment: fixed;">
+            <div class="overlay"></div>
+
+            <div class="home-slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="slide-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 fadecontent-l">
+                                    <div class="mt-250"></div>
+                                    <h3>Pay For Anything With BTCP Pay</h3>
+                                    <p>Want to start selling and receiving using BTCP? Request access to our Beta today!</p>
+                                    <a class="btn btn-default" id="signupBTN" href="#" role="button" data-toggle="modal" data-target="#signup">Sign me Up</a>
+                                </div>
+                                <div class="col-md-6 fadecontent-r">
+                                    <div class="mt-200 hidden-sm hidden-xs"></div>
+                                    <img src="assets/img/slide-mobile.png" class="img-responsive center-block" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Home Banner -->
+    </header>
+
+	
+    <!-- Start Footer Section -->
+    <footer class="text-center">
+        <p>Copyright © 2018 BitcoinPrivate</p>
+    </footer>
+    <!-- End Footer Section -->
+	
+	
+	
+	
+	
+	 <!-- Start Modal -->
+	<div class="modal fade" id="signup" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="toplogo" style="width:250px;" src="assets/img/logo-blue.png" class="img-responsive" alt="">
+		  <h4 class="text-primary" style="text-align:center;">Signup for our payments beta release </h4> 
+        </div>
+		<div class="modal-body">
+		<!-- SendGrid -->
+		<style>.sendgrid-subscription-widget input{padding:.5em .5em .55em;font-size:.8em;font-family:sans-serif}.sendgrid-subscription-widget #sg_signup_first_name,.sendgrid-subscription-widget #sg_signup_last_name{margin-right:.5em}.sendgrid-subscription-widget #sg-submit-btn{display:inline-block;color:#444;border:1px solid #ccc;background:#ddd;box-shadow:0 0 5px -1px rgba(0,0,0,.2);cursor:pointer;vertical-align:middle;max-width:100px;padding:.5em;margin:0 .4em;text-align:center;font-size:.9em;font-family:sans-serif}.sendgrid-subscription-widget #sg-submit-btn:active{color:#8e8b8b;box-shadow:0 0 5px -1px rgba(0,0,0,.6)}.sendgrid-subscription-widget .response{display:none;font-family:sans-serif;font-size:.8em}.sendgrid-subscription-widget .success{color:green}.sendgrid-subscription-widget .error{color:red}</style>
+		<!-- /SendGrid -->
+		<div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget row">		
+		    <form  id="sg-widget" data-token="f7631b77f38b03499d095c44795aa998" class="form-horizontal"  action="mailer.php" method="post">		
+			<div class="form-group">
+			<label class="control-label col-md-3" style="font-size:14px;">Name:</label>
+			<div class="col-md-8">
+			<input id="sg_signup_first_name" type="text" name="sg_signup_first_name" class="form-control" value="" placeholder="Please Enter Your Name" required>
+			</div>
+			</div>
+			<div class="form-group">
+			<label class="control-label col-md-3" style="font-size:14px;" >Company:</label>
+			<div class="col-md-8">
+			<input id="sg_signup_last_name" type="text" name="sg_signup_last_name" class="form-control"  value="" placeholder="Please Enter Your Website" required>
+			</div>
+			</div>
+			<div class="form-group">
+			<label class="control-label col-md-3" style="font-size:14px;">Email:</label>
+			<div class="col-md-8">
+			<input id="sg_email" type="email" name="sg_email" class="form-control" value="" placeholder="Please Enter Your Email" required>
+			</div>
+			</div>	
+			<div class="form-group">
+			<div class="col-md-3"></div>
+			<div class="col-md-9">
+			<input type="submit" name="Signup Now" value="send" id="sg-submit-btn" class="btn btn-signup"> <input type="reset" name="Reset" value="Reset" class="btn btn-signup"> 			
+			</div>	
+			</div>	
+			<div class="sg-response" id="sg-response" style="text-align:center;"></div>
+			</form>					
+        </div>
+		</div>
+		<!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		-->
+      </div>      
+    </div>
+  </div>
+
+		 <!-- End Modal -->
+		 
+		 
+		 
+	 <!-- Start Thank You Modal -->
+	<div class="modal fade" id="thankyou" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img class="toplogo" style="width:250px;" src="assets/img/logo-blue.png" class="img-responsive" alt="">
+		  <h4 class="text-primary" style="text-align:center;">Thank You For Signing Up ! <br/> We can't wait to welcome you onboard  </h4> 
+		  <br/>
+		</div>
+		<div class="modal-body">
+		<br/>
+		<div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget row">		
+		    <a class="control-label socialLink col-md-3" style="font-size:12px;" href="http://btcprivate.org" target="_blank"><i class="fa fa-link">&nbsp;</i>btcprivate.org</a>
+			<a class="control-label socialLink col-md-3" style="font-size:12px;" href="https://twitter.com/bitcoinprivate" target="_blank"><i class="fa fa-twitter">&nbsp;</i>@bitcoinprivate</a>
+			<a class="control-label socialLink col-md-3" style="font-size:12px;" href="https://www.reddit.com/r/BitcoinPrivate/" target="_blank"><i class="fa fa-reddit">&nbsp;</i>r/BitcoinPrivate</a>
+			<a class="control-label socialLink col-md-3" style="font-size:12px;" href="https://t.me/BTCPrivate" target="_blank"><i class="fa fa-telegram">&nbsp;</i>BTCPrivate</a>
+        </div>
+		</div>
+		<!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		-->
+      </div>      
+    </div>
+  </div>
+
+		 <!-- End Thank You Modal -->	 
+		 
+		 
+		 
+	<!-- SendGrid -->	 
+	<script type="text/javascript" src="//sgwidget.leaderapps.co/js/sendgrid-widget.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- AOS JS -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Our Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
